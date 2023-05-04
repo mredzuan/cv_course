@@ -47,4 +47,23 @@ myNeMat[0:6, :] = 999
 
 
 
+#Exercise
+#1. Create a 5 by 5 array with every number is a 10
+
+fbf_array = np.ones(shape=(5,5))*10
+
+#2. Largest and smaller numbers
+
+np.random.seed(101)
+
+arr_rand = np.random.randint(low=0, high= 100, size=(5,5))
+
+# smaller value
+arr_rand.min()
+
+# Larger value
+arr_rand.max()
+
+
+
 
